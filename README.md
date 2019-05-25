@@ -1,5 +1,5 @@
 # BatchGather
-##Another idea for the built-in Tensorflow function "tf.batch_gather".
+## Another idea for the built-in Tensorflow function "tf.batch_gather".
 
 "tf.batch_gather" is a built-in function matching "tf.nn.top_k" in my own opinion.
 
