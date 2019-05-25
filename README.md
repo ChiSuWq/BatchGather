@@ -5,7 +5,7 @@
 
 * In other words, my opinion is maybe a mistake.
 
-The origin "tf.batch_gather" convert the local batch_indices into global ones.
+The origin "tf.batch_gather" converts the local batch_indices into global ones.
 
 * Here is the array example
 ![](https://github.com/ChiSuWq/BatchGather/blob/master/Image/example_array.jpg)
@@ -26,8 +26,7 @@ please read my code`some_test.py` to find more, and I also provide the `batch_ga
 
 Wanna know more about `batch_gather.py`, you can refer https://github.com/tensorflow/tensorflow/blob/r1.13/tensorflow/python/ops/array_ops.py
 
-
-
+* PS: the top-k function can be used to hard negative mining in SSD or YOLO, some object detection algorithm I am studying. And the "tf.batch_gather"  gathers the corresponding yHat array to calculate the loss. 
 
 
 
