@@ -3,7 +3,7 @@
 
 "tf.batch_gather" is a built-in function matching "tf.nn.top_k" in my own opinion.
 
-* In other words, my opinion is maybe a mistake.
+In other words, my opinion is maybe a mistake.
 
 The origin "tf.batch_gather" converts the local batch_indices into global ones.
 
@@ -11,10 +11,12 @@ The origin "tf.batch_gather" converts the local batch_indices into global ones.
 ![](https://github.com/ChiSuWq/BatchGather/blob/master/Image/example_array.jpg)
 
 * The example that the local indices have be converted to global ones.
-* (The TopKV2 results from "tf.nn.top_k")
+![](https://github.com/ChiSuWq/BatchGather/blob/master/Image/indices_from_local_to_global.jpg)
+
+(The TopKV2 results from "tf.nn.top_k")
 
 So we can find that 0 to 4 and 2 to 6.
-![](https://github.com/ChiSuWq/BatchGather/blob/master/Image/indices_from_local_to_global.jpg)
+
 
 then it gathers the values corresponding to the indices.
 
