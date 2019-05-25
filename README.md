@@ -10,7 +10,7 @@ The origin "tf.batch_gather" converts local batch_indices into global ones.
 * Here is the array example
 ![](https://github.com/ChiSuWq/BatchGather/blob/master/Image/example_array.jpg)
 
-* The example that the local indices have be converted to global ones.
+* The example that the local indices have been converted to global ones.
 ![](https://github.com/ChiSuWq/BatchGather/blob/master/Image/indices_from_local_to_global.jpg)
 
 (The TopKV2 results from "tf.nn.top_k")
